@@ -207,15 +207,17 @@ h1{
 }
 
 /* to control tos page */
-.tos dt{
+.tos h2{
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
     color: #18487e;
-    padding-bottom: 5px;
-    padding-top: 10px;
 }
 
-.tos dd{
+.tos li{
     font-size: 20px;
+}
+
+.tos ul{
+    list-style-image: url(markers/star.svg);
 }
